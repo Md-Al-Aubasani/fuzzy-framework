@@ -1,0 +1,16 @@
+{
+    "age": 25,
+    "ecg": 1,
+    
+    "blood_pressure": 120,
+    "blood_sugar": 100,
+    "cholesterol": 100,
+    "maximum_heart_rate": 80,
+    "old_peak": 1,
+    "chest_pain": 1,
+    "exercise": 0,
+    "sex": 0,
+    "patient_history": [
+        ""
+    ]
+}
