@@ -591,15 +591,15 @@ rule54 = ctrl.Rule(
 
 def get_health_risk(num):
     if num >= 0 and num <= 0.5:
-        return 'healthy'
+        return 'no_risk'
     elif num > 0.5 and num <= 1.5:
-        return "risk1"
+        return "low_risk"
     elif num > 1.5 and num <= 2.5:
-        return "risk2"
+        return "moderate_risk"
     elif num > 2.5 and num <= 3.5:
-        return "risk3"
+        return "high_risk"
     elif num > 3.5 and num <= 4.5:
-        return "risk4"
+        return "very_high_risk"
 
 
 all_rules = [rule1, rule2, rule3, rule4, rule5, rule6, rule7, rule8, rule9, rule10,
